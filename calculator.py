@@ -8,5 +8,8 @@ def calculator(a, b, s):
     if(s == '/'):
         return a / b
     
+a = float(input())
+b = float(input())
+s = str(input())
 
-print(calculator(3.45, 4.12, '+'))
+print(calculator(a, b, s))
